@@ -1,11 +1,11 @@
 import os
 
 class AudioManager:
-    def __init__(self, assets_dir="assets"):
+    def __init__(self, assets_dir="assets/sounds"):
         self.assets_dir = assets_dir
         # Mapa: Nazwa klasy (z CLASS_NAMES) -> nazwa pliku
         self.sound_map = {
-            "Indian Peacock": "peacock.mp3",
+            "Indian Peacock": "Indian_Peacock.mp3",
         }
 
     def get_audio_path(self, species_name):
