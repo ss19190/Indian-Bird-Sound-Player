@@ -1,2 +1,7 @@
-ultralytics
+PySide6
 torch
+torchvision
+Pillow
+numpy
+opencv-python
+ultralytics
